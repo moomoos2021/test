@@ -1,0 +1,89 @@
+Headers:
+  + Authorization: Bearer {channel access token}
+  + Content-Type: application/json
+Endpoint: https://api.line.me/v2/bot/richmenu
+Method: POST
+Body:
+  {
+  "size": {
+    "width": 2500,
+    "height": 1686
+  },
+  "selected": true,
+  "name": "test",
+  "chatBarText": "MENU",
+  "areas": [
+    {
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1677,
+        "height": 919
+      },
+      "action": {
+        "type": "uri",
+        "uri": "https://www.google.com/"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1702,
+        "y": 5,
+        "width": 798,
+        "height": 914
+      },
+      "action": {
+        "type": "uri",
+        "uri": "https://www.youtube.com/watch?v=EaBZYQZ2Bpo"
+      }
+    },
+    {
+      "bounds": {
+        "x": 2010,
+        "y": 1187,
+        "width": 5,
+        "height": 5
+      },
+      "action": {
+        "type": "uri",
+        "uri": "https://wetv.vip/play/u37kgfnfzs73kiu-ดุจดวงดาวเกียรติยศ/w0040rc1bxd-EP31-ดุจดวงดาวเกียรติยศ"
+      }
+    },
+    {
+      "bounds": {
+        "x": 5,
+        "y": 939,
+        "width": 828,
+        "height": 728
+      },
+      "action": {
+        "type": "uri",
+        "uri": "https://www.it24hrs.com/2020/resize-image-with-photos-app-windows10/"
+      }
+    },
+    {
+      "bounds": {
+        "x": 854,
+        "y": 938,
+        "width": 829,
+        "height": 728
+      },
+      "action": {
+        "type": "uri",
+        "uri": "https://grabify.link/?__cf_chl_f_tk=FqHFpGNDcXB2ve2WKQlWnua84bSJmoq_lJoqALH23o4-1643642374-0-gaNycGzNCJE"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1702,
+        "y": 938,
+        "width": 778,
+        "height": 728
+      },
+      "action": {
+        "type": "message",
+        "text": "สมัครสมาชิก"
+      }
+    }
+  ]
+}
